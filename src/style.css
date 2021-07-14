@@ -14,19 +14,20 @@ body {
   display: flex;
   flex-direction: column;
 }
-.top-Icon {
-  background-color: red;
+.topIcon {
+  font-size: 40px;
 }
-.value {
+.centernumber {
   flex-grow: 1;
   display: flex;
-  background-color: yellow;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-size: 40px;
 }
-.bottom-Icon {
-  float: left;
+.bottomIcon {
   display: flex;
-  background-color: violet;
+  justify-content: flex-start;
+  transform: rotate(180deg);
+  font-size: 40px;
 }
