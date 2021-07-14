@@ -14,7 +14,7 @@ window.onload = function() {
 
   let randsuit = Math.floor(Math.random() * 4);
   const element = suits[randsuit];
-  if (suits[1] === "♥" || suits[0] === "♦") {
+  if (suits[randsuit] === "♥" || suits[randsuit] === "♦") {
     top.style.color = "red";
     bottom.style.color = "red";
   } else {
